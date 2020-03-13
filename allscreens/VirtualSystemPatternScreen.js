@@ -33,7 +33,7 @@ export default class VirtualSystemPatternScreen extends Component {
   }
 
   componentDidMount = () => {
-    fetch('http://192.168.1.11/ibm/menu.php',  {
+    fetch('http://<Enter your IP address>/ibm/menu.php',  {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
