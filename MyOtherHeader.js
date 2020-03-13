@@ -32,7 +32,7 @@ class MyHeader extends React.Component{
        
     exitApp=()=>{
 
-        fetch('http://192.168.1.11/ibm/exitApp.php');
+        fetch('http://<Enter your IP address>/ibm/exitApp.php');
 
         // alert('exit app??');
         BackHandler.exitApp();
