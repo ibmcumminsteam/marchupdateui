@@ -40,7 +40,7 @@ export default class Login extends React.Component {
 
     onLoginPress=()=>{
 
-        fetch('http://192.168.1.11/ibm/login.php',  {
+        fetch('http://<add your IP address>/ibm/login.php',  {
           method: 'POST',
           headers: {
             'Accept': 'application/json',
