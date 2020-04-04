@@ -1,13 +1,8 @@
-// Home screen
-import React, { Component } from 'react';
-//import react in our code.
+import React from 'react';
 import { Text, View, Image } from 'react-native';
-//import all the components we are going to use.
-// import MyHeader from "../screens/MyHeader";
-import { Dimensions } from 'react-native';
-import {Button, Content} from 'native-base';
+import {Button} from 'native-base';
 
-export default class Home extends React.Component {
+export default class GettingStarted extends React.Component {
   static navigationOptions = {
     title: 'Getting Started',
    }
@@ -39,9 +34,7 @@ export default class Home extends React.Component {
             resizeMode:"contain", 
             backgroundColor: '#F8F6F8'
             }}
-            // resizeMode="contain"
-               
-              />
+           />
                
                <View  style={{ backgroundColor: '#F8F6F8',}}>
               <Button small large light bordered style={{margin: 40, backgroundColor: "#14132f"}} 
