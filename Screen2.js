@@ -20,7 +20,7 @@ import VirtualSystemInstancesScreen from "./allscreens/VirtalSystemInstancesScre
 import VirtualApplicationInstancesScreen from './allscreens/VirtualApplicationInstancesScreen';
 import VirtualMachineScreen from './allscreens/VirtulMachineScreen';
 
-import MyOtherHeader from './MyOtherHeader' ;
+import MyOtherHeader from './screens/MyOtherHeader' ;
 
 
 function Separator() {
