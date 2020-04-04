@@ -1,24 +1,13 @@
-// Home screen
-// import React, { Component } from 'react';
-//import react in our code.
-// import { Text, View,Button } from 'react-native';
-import React, { Component } from 'react';
+import React from 'react';
 import {
-    ScrollView,
     Text,
     TextInput,
     View,
     Button,
-    BackHandler,
-    FlatList,
     StyleSheet,
-    ActivityIndicator,
-    TouchableOpacity,
     Image,
-    ImageBackground,
     Alert,
 } from 'react-native';
-//import all the components we are going to use.
 
 export default class Login extends React.Component {
   
@@ -40,7 +29,7 @@ export default class Login extends React.Component {
 
     onLoginPress=()=>{
 
-        fetch('http://<add your IP address>/ibm/login.php',  {
+        fetch('http://9.102.0.29/ibm/login.php',  {
           method: 'POST',
           headers: {
             'Accept': 'application/json',
