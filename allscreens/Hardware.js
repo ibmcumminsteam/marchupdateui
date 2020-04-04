@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import { StyleSheet, View, ScrollView, Text, } from 'react-native';
-import MyOtherHeader from '../MyOtherHeader' ;
+    import React, { Component } from 'react';
+    import {View, Text, } from 'react-native';
+    import MyOtherHeader from '../screens/MyOtherHeader' ;
 
- 
-export default class Hardware extends Component{
+
+    export default class Hardware extends Component{
 
     static navigationOptions = ({ navigation }) => ({
-        title:'Hardware', 
-      })
+    title:'Hardware', 
+    })
 
     render(){
-        return(
-                <><MyOtherHeader/>
-            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                
-            <Text>Under Deployment</Text>
-            </View>
-            </>
-        )
-    }
+    return(
+    <><MyOtherHeader/>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+
+    <Text>Under Development</Text>
+    </View>
+    </>
+    )
 }
+    }
