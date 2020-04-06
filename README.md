@@ -11,15 +11,19 @@ Some important points:
 -- 
 
 apk building steps
+
 Open the terminal and change directory to current working project folder and use command:
 
 npm start
+
 Open anotheer terminal and change directory to current working project folder and use command:
 
 expo build:android (for android)
+
 expo build:ios (for ios)
 
 refer to following link for more details: https://docs.expo.io/versions/latest/distribution/building-standalone-apps/
 
 --
+
 To rebuild the apk on any changes repeat the steps given above
