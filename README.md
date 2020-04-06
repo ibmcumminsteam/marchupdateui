@@ -6,7 +6,7 @@ Some important points:
 3) type npm start, to start with the expo development server, which shows a QR code. This can be scanned from the expo app on your phone.
 4) if any node package related error is shown in the terminal copy the package name and install it till all the similar errors are resolved.
     e.g. npm install packagename
-5) the php files in this repository should be pasted in the server's folder whose path is given in the fetch request on the screens fetching data + login screen(to validate login credentials).
+5) the php files[2 files- login.php and menu.php] in this repository should be pasted in the server's folder whose path is given in the fetch request on the screens fetching data + login screen(to validate login credentials).
 
 -- 
 
