@@ -16,7 +16,7 @@ Open the terminal and change directory to current working project folder and use
 
 npm start
 
-Open anotheer terminal and change directory to current working project folder and use command:
+Open another terminal and change directory to current working project folder and use command:
 
 expo build:android (for android)
 
